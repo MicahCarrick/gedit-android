@@ -1,0 +1,16 @@
+<ui>
+<menubar name="MenuBar">
+  <placeholder name="ExtraMenu_1">
+    <menu name="AndroidMenu" action="Android">
+      <menuitem action="AndroidNewProject"/>
+      <menuitem action="AndroidOpenProject"/>
+      <menuitem action="AndroidCloseProject"/>
+      <separator/>
+      <menuitem action="AndroidRun"/>
+      <separator/>
+      <menuitem action="AndroidSdk"/>
+      <menuitem action="AndroidAvdManager"/>
+    </menu>
+  </placeholder>
+</menubar>
+</ui>

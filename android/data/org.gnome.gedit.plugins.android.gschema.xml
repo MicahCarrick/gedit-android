@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.gedit.plugins.android" path="/org/gnome/gedit/plugins/android/">
+    <key type="s" name="android-command">
+      <default>'android'</default>
+      <summary>Android Command</summary>
+      <description>Specifies the command-line executable for the &quot;android&quot; tool within the Android SDK.</description>
+    </key>
+    <key type="s" name="ant-command">
+      <default>'ant'</default>
+      <summary>Ant Command</summary>
+      <description>Specifies the command-line executable for &quot;Ant&quot;.</description>
+    </key>
+    <key type="s" name="default-package-namespace">
+      <default>'com.example'</default>
+      <summary>Default Package Namespace</summary>
+      <description>Default package namespace to use when creating a new Android project.</description>
+    </key>
+    <key type="s" name="default-project-path">
+      <default>''</default>
+      <summary>Default Project Path</summary>
+      <description>Default location when creating a new Android project.</description>
+    </key>
+    <key type="s" name="default-build-target">
+      <default>'10'</default>
+      <summary>Default Build Target</summary>
+      <description>The ID for the default build target when creating a new Android project.</description>
+    </key>
+    <key type="s" name="console-font">
+      <default>'monospace 10'</default>
+      <summary>Console Font</summary>
+      <description>The font family and size for the font used in the console pane.</description>
+    </key>
+  </schema>
+</schemalist>
+

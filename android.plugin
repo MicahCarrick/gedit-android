@@ -1,0 +1,11 @@
+[Plugin]
+Loader=python
+Module=android
+IAge=3
+Name=Android Development
+Description=Develop Android applications with gedit.
+Authors=Micah Carrick <micah@quixotix.com>
+Copyright=Copyright © 2011 Micah Carrick
+Website=https://github.com/Quixotix/gedit-android
+Version=3.0.0
+
